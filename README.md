@@ -32,8 +32,6 @@ soil type.
 ```
 **Outcomes:**
 
-By the end of the project, students will:
-
 ```
 * Understand seismic data and its role in predicting earthquake impacts.
 * Preprocess and analyze geospatial and geophysical features.
@@ -83,101 +81,5 @@ By the end of the project, students will:
 * Build a form using Streamlit or Fast API
 * Input: magnitude, depth, region, soil type
 * Output: impact prediction or risk category
-```
-## Week-wise module implementation and high-level requirements with output screenshots
-
-**Milestone 1**
-
-```
-- Week 1: Project Setup & Dataset Understanding
-  - Load data, explore feature distribution, map locations.
-- Week 2: Preprocessing & Feature Engineering
-  - Handle missing values, normalize and create new features.
-```
-**Milestone 2**
-
-```
-- Week 3 : Baseline Model Training
-  - Logistic Regression, Decision Tree
-  - Basic accuracy/MAE analysis.
-- Week 4 : Advanced Model Training
-  - Random Forest, Gradient Boosting
-  - Cross-validation, hyperparameter tuning.
-```
-**Milestone 3**
-
-```
-- Week 5 : Evaluation & Explainability
-  - Generate confusion matrix, MAE/MSE plots
-  - Feature importance, SHAP values.
-- Week 6 : Impact Predictor UI Prototype
-  - Simple web form, input parameters → impact score or risk level.
-```
-**Milestone 4**
-
-
-```
-- Week 7 : Testing & Improvements
-  - Test edge cases, improve model & UI logic.
-- Week 8 : Final Report & Presentation
-  - Charts, visuals, final results, slides and PDF.
-```
-## Evaluation Criteria
-
-**Completion of Milestones:**
-
-```
-* Dataset understanding & cleaning
-* Model training and evaluation
-* UI integration (optional)
-* Documentation and final presentation
-```
-**Quality of Predictions:**
-
-```
-* Prediction accuracy of earthquake risk or damage
-* Sensitivity to changes in key inputs
-* Realism of the predicted output
-```
-**Clarity and Presentation:**
-
-```
-* Logical flow of the document
-* Clear explanation of the methodology
-* Visual clarity of graphs and metrics
-* Good explanation during demo
-```
-## Model Performance – Quantitative Metrics
-
-**Classification Metrics:**
-
-```
-* Accuracy : Percentage of correct risk predictions
-* Precision : How many predicted "High-Risk" cases were correct
-* Recall : How many true "High-Risk" cases were captured
-* F1-Score : Balance between precision and recall
-* Confusion Matrix : True vs. predicted classes
-```
-**Regression Metrics (if predicting damage cost or scale):**
-
-```
-* MAE (Mean Absolute Error)
-```
-
-```
-* MSE (Mean Squared Error)
-* R² Score (Coefficient of Determination)
-```
-**Feature Importance:**
-
-```
-* Highlight which features (depth, location, magnitude) influenced predictions
-* Use SHAP or feature importance chart
-```
-**Training Curves:**
-
-```
-* Plot training vs validation loss and accuracy
-* Identify overfitting or underfitting
 ```
 
